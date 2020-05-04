@@ -13,6 +13,7 @@ def generate(max_length=1000000, char_start=1, char_range=255):
     return out
 
 if __name__ == '__main__':
+    # TODO: change path dinamically
     lib_path = '/home/bianca/Desktop/thesis/Basic-Fuzzer/out-rdynamic'
     lib = None
 
